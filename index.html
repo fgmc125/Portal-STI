@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- topbar -->
+    <div class="bg-dark">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- left content -->
+                <div class="col d-flex flex-nowrap align-items-center">
+                    <!-- logo -->
+                    <div class="navbar-brand d-inline-flex">
+                        <a href="#">
+                            <img class="d-flex" src="./img/arcom-logo.png" alt="arcom" style="height: 16px;">
+                        </a>
+                    </div>
+                    <!-- web.app -->
+                    <div class="d-inline-flex ms-2">
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-light" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Areas
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-dark" style="z-index: 9999;">
+                                    <li><a class="dropdown-item" href="#">Action 1</a></li>
+                                    <li><a class="dropdown-item" href="#">Action 2</a></li>
+                                    <li><a class="dropdown-item" href="#">Action 3</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- right content -->
+                <div class="col">
+                    <ul class="nav flex-nowrap justify-content-md-end justify-content-sm-center">
+                        <!--<li class="nav-item">
+                            <ul class="navbar-nav">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle text-light" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Lenguaje
+                                        <i class="fa-solid fa-globe"></i>
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-menu-dark" style="z-index: 9999;">
+                                        <li><a class="dropdown-item" href="#">
+                                                <i class="fa-regular fa-flag"></i>
+                                                Español</a></li>
+                                        <li><a class="dropdown-item" href="#">
+                                                <i class="fa-regular fa-flag"></i>
+                                                Ingles</a></li>
+                                        <li><a class="dropdown-item" href="#">
+                                                <i class="fa-regular fa-flag"></i>
+                                                Otro</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">Crear Cuenta</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">Ingresar</a>
+                        </li>-->
+                        <li class="nav-item">
+                            <a class="nav-link text-light disabled">Soporte</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- navbar -->
+    <div class="sticky-top" style="background-color: white;">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <!-- logo -->
+                <div class="col d-flex align-items-center flex-grow-0" style="min-width: 6em;">
+                    <a href="#" class="">
+                        <h1 class="mb-0">
+                            <img class="img-fluid" src="./img/SSalud_logo_log.png" style="max-height: 1.3em;">
+                        </h1>
+                    </a>
+                </div>
+                <div class="col d-sm-flex align-items-center flex-grow-0 d-none ms-md-5" style="min-width: 13em;">
+                    <a href="#" class="">
+                        <h1 class="mb-0">
+                            <img class="img-fluid" src="./img/logomsp.png" style="max-height: 1.3em;">
+                        </h1>
+                    </a>
+                </div>
+                <!-- colapse icon -->
+                <button class="navbar-toggler btn-collapse" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars fs-2"></i>
+                </button>
+                <!-- menu -->
+                <div class="col collapse navbar-collapse mx-auto" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page"
+                                href="https://saludsalta.gob.ar/sti">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://saludsalta.gob.ar/sti/institucional/">Institucional</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://saludsalta.gob.ar/sti/servicios/">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <ul class="navbar-nav">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Accesos
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-menu">
+                                        <li>
+                                            <a class="dropdown-item" href="#">
+                                                Campus Virtual
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">
+                                                TeleSalud
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark">Noticias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light btn btn-gradient px-3 me-3">
+                                Contacto
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="sti-hero-breadcrumb bg-gradient-1 py-4 position-relative">
+        <div class="container" style="position: relative; z-index: 1;">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb mb-0">
+                    <li class="breadcrumb-item text-light">Inicio</li>
+                    <li class="breadcrumb-item text-light" aria-current="page">Area Operativa: CACHI</li>
+                </ol>
+            </nav>
+            <h3 class="fs-3 text-light"></h3>
+            <h2 class="fs-1 text-light">Historia Clínica Única</h2>
+        </div>
+        <div id="particles-sti" class="particles-canvas"></div>
+    </div>
+
+    <main>
+        <div class="d-none">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="27.2347mm"
+                            height="73.3537mm" version="1.1"
+                            style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                            viewBox="0 0 15.81 42.58" xmlns:xlink="http://www.w3.org/1999/xlink"
+                            xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+                            <g id="Capa_x0020_1">
+                                <metadata id="CorelCorpID_0Corel-Layer" />
+                                <path class="fill-green-31"
+                                    d="M14.12 3.49l0 10.23c-0.62,0.03 -1.11,0.54 -1.11,1.16l0 0.48c0,0.62 0.5,1.13 1.11,1.16l0 10.23c-0.62,0.03 -1.11,0.54 -1.11,1.16l0 0.48c0,0.62 0.5,1.13 1.11,1.16l0 10.23c-0.62,0.03 -1.11,0.54 -1.11,1.16l0 0.48c0,0.64 0.52,1.16 1.16,1.16l0.48 0c0.64,0 1.16,-0.52 1.16,-1.16l0 -0.48c0,-0.62 -0.5,-1.13 -1.11,-1.16l0 -10.23c0.62,-0.03 1.11,-0.54 1.11,-1.16l0 -0.48c0,-0.62 -0.5,-1.13 -1.11,-1.16l0 -10.23c0.62,-0.03 1.11,-0.54 1.11,-1.16l0 -0.48c0,-0.62 -0.5,-1.13 -1.11,-1.16l0 -10.23c0.62,-0.03 1.11,-0.54 1.11,-1.16l0 -0.48c0,-0.64 -0.52,-1.16 -1.16,-1.16l-0.48 0c-0.64,0 -1.16,0.52 -1.16,1.16l0 0.48c0,0.62 0.5,1.13 1.11,1.16z" />
+                                <text x="4.33" y="1.64" class="fill-gray-72 fnt-lato is-active">Gestión</text>
+                                <text x="3.8" y="4.16" class="fill-gray-72 fnt-lato is-active">de Salud</text>
+                                <text x="3.63" y="14.66" class="fill-gray-72 fnt-lato">Registro</text>
+                                <text x="0.75" y="17.17" class="fill-gray-72 fnt-lato">Profesional</text>
+                                <text x="-0.17" y="27.68" class="fill-gray-72 fnt-lato">Primer Nivel</text>
+                                <text x="0.32" y="30.2" class="fill-gray-72 fnt-lato">de Atención</text>
+                                <text x="3.51" y="41.97" class="fill-gray-72 fnt-lato">Tableros</text>
+                                <circle class="fill-light-FE" cx="14.41" cy="2.09" r="0.52" />
+                                <circle class="fill-green-31" cx="14.41" cy="15.12" r="0.52" />
+                                <circle class="fill-green-31" cx="14.41" cy="28.15" r="0.52" />
+                                <circle class="fill-green-31" cx="14.41" cy="41.18" r="0.52" />
+                            </g>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <div class="container">
+                        <div class="row pt-5">
+                            <div class="col">
+                                <div class="card mb-3 border-0 bg-transparent">
+                                    <div class="row g-0">
+                                        <div class="col-md-4 col-lg-3 col-xl-2 d-flex align-items-center">
+                                            <img src="./img/img-card-gestion-de-salud.png" class="img-fluid" alt="...">
+                                        </div>
+                                        <div class="col-md-8 col-lg-9 col-xl-10">
+                                            <div class="card-body">
+                                                <h5 class="fs-2 text-green-19">Gestión de Salud</h5>
+                                                <h6 class="text-light bg-green-31 rounded-3 px-2 py-1"
+                                                    style="max-width: fit-content;">
+                                                    Administración de la información sanitaria
+                                                </h6>
+                                                <p class="card-text text-secondary">Herramienta que ayuda a los
+                                                    profesionales
+                                                    de la salud a
+                                                    administrar la información sanitaria de manera eficiente
+                                                    y
+                                                    segura.
+                                                    Esta información incluye datos de pacientes, registros
+                                                    médicos, resultados
+                                                    de
+                                                    pruebas, información de citas, etc.</p>
+                                                <div class="d-flex justify-content-end">
+                                                    <a class="btn btn-green-31" href="">
+                                                        <i class="fa-solid fa-chevron-right"></i>
+                                                        Ingresar
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid" style="background-color: white;">
+            <div class="row">
+                <div class="col">
+                    <div class="container">
+                        <div class="row pt-5">
+                            <div class="col">
+                                <div class="card mb-3 border-0 bg-transparent">
+                                    <div class="row g-0">
+                                        <div class="col-md-4 col-lg-3 col-xl-2 d-flex align-items-center">
+                                            <img src="./img/img-card-registro-profesional.png" class="img-fluid" alt="...">
+                                        </div>
+                                        <div class="col-md-8 col-lg-9 col-xl-10">
+                                            <div class="card-body">
+                                                <h5 class="fs-2 card-title text-green-19">Registro Profesional</h5>
+                                                <h6 class="text-light bg-green-31 rounded-3 px-2 py-1"
+                                                    style="max-width: fit-content;">
+                                                    Gestión asistencial de los pacientes
+                                                </h6>
+                                                <p class="card-text text-secondary">Acceso a la gestión asistencial de los pacientes.</p>
+                                                <div class="d-flex justify-content-sm-between justify-content-md-end">
+                                                    <a class="btn btn-green-31 mx-1" href="http://stisalta.duckdns.org:8888/RegistroEnfermeria/servlet/enfermeria.inicio">
+                                                        <i class="fa-solid fa-chevron-right"></i>
+                                                        Acceder a Enfermería
+                                                    </a>
+                                                    <a class="btn btn-green-31 mx-1" href="http://stisalta.duckdns.org:9999/Odontologia/sistema.inicio">
+                                                        <i class="fa-solid fa-chevron-right"></i>
+                                                        Acceder a Odontología
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <div class="container">
+                        <div class="row pt-5">
+                            <div class="col">
+                                <div class="card mb-3 border-0 bg-transparent">
+                                    <div class="row g-0">
+                                        <div class="col-md-4 col-lg-3 col-xl-2 d-flex align-items-center">
+                                            <img src="./img/img-card-primer-nivel-de-atencion.png" class="img-fluid" alt="...">
+                                        </div>
+                                        <div class="col-md-8 col-lg-9 col-xl-10">
+                                            <div class="card-body">
+                                                <h5 class="fs-2 card-title text-green-19">Primer Nivel de Atención</h5>
+                                                <h6 class="text-light bg-green-31 rounded-3 px-2 py-1"
+                                                    style="max-width: fit-content;">
+                                                    Salta
+                                                </h6>
+                                                <p class="card-text text-secondary">Salta</p>
+                                                <div class="d-flex justify-content-end">
+                                                    <a class="btn btn-green-31" href="">
+                                                        <i class="fa-solid fa-chevron-right"></i>
+                                                        Ingresar
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid" style="background-color: white;">
+            <div class="row">
+                <div class="col">
+                    <div class="container">
+                        <div class="row pt-5">
+                            <div class="col">
+                                <div class="card mb-3 border-0 bg-transparent">
+                                    <div class="row g-0">
+                                        <div class="col-md-4 col-lg-3 col-xl-2 d-flex align-items-center">
+                                            <img src="./img/img-card-tableros.png" class="img-fluid" alt="...">
+                                        </div>
+                                        <div class="col-md-8 col-lg-9 col-xl-10">
+                                            <div class="card-body">
+                                                <h5 class="fs-2 card-title text-green-19">Tableros</h5>
+                                                <h6 class="text-light bg-green-31 rounded-3 px-2 py-1"
+                                                    style="max-width: fit-content;">
+                                                    Central de análisis de datos
+                                                </h6>
+                                                <p class="card-text text-secondary">Central de análisis de datos.</p>
+                                                <div class="d-flex justify-content-end">
+                                                    <a class="btn btn-green-31" href="">
+                                                        <i class="fa-solid fa-chevron-right"></i>
+                                                        Ingresar
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer id="particles-footer" class="bg-gradient-1 position-relative">
+        <div id="particles-sti-footer" class="particles-canvas"></div>
+        <div class="container" style="position: relative; z-index: 1;">
+            <div class="row"></div>
+            <div class="row mt-5">
+                <div class="col d-flex flex-column">
+                    <h5 class="fs-3 text-light">Contacto</h5>
+                    <p class="fs-6 text-light">Tel: 0387-4221337</p>
+                    <p class="fs-6 text-light">Email: soporte@tecnologiaeinovacion.com</p>
+                </div>
+                <div class="col">
+                    <h5 class="fs-3 text-light">Sub. Sec. Tecnología e Innovación</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="fs-6 text-light">Gestión de Salud</a></li>
+                        <li><a href="#" class="fs-6 text-light">Primer Nivel de Atención</a></li>
+                        <li><a href="#" class="fs-6 text-light">Registro Profesional</a></li>
+                        <li><a href="#" class="fs-6 text-light">Tableros</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/particles.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

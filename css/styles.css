@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+body {
+    background-color: #F7F7F8;
+}
+.topbar {
+    max-height: 34px;
+}
+
+.bg-gradient-1 {
+    background: rgb(46,155,164); 
+    background: linear-gradient(180deg, rgba(46,155,164,1) 0%, rgba(51,195,190,1) 100%);
+}
+
+.btn-gradient {
+    --bs-text-opacity: 1;
+    color: rgba(248, 249, 250, var(--bs-text-opacity)) !important;
+    border: 1px solid #FFF;
+    background: rgb(46,155,164); 
+    background: linear-gradient(180deg, rgba(46,155,164,1) 0%, rgba(51,195,190,1) 100%);
+    border-radius: var(--bs-border-radius-xxl) !important
+}
+
+.btn-gradient:hover {
+    color: rgba(51, 195, 190, var(--bs-text-opacity)) !important;
+    border: 1px solid #33c3be;
+    background: transparent;
+}
+
+.has-min-width {
+    flex-grow: 0;
+}
+
+.fill-light-FE {
+    fill: #FEFEFE;
+}
+
+.fill-gray-72 {
+    fill: #727376;
+}
+
+.fill-green-31 {
+    fill: #31B7B4;
+}
+
+.bg-green-31 {
+    background-color: #31B7B4;
+}
+
+.fnt-lato {
+    font-weight: normal;
+    font-size: 2.25px;
+    font-family: 'Lato', sans-serif;
+}
+
+text.is-active {
+    fill: #31B7B4;
+}
+
+.btn-collapse {
+    --bs-text-opacity: 1;
+    color: rgba(51, 195, 190, var(--bs-text-opacity)) !important;
+    border: none;
+    background: transparent;
+    border-radius: var(--bs-border-radius) !important
+}
+
+.btn-collapse:hover {
+    --bs-text-opacity: 1;
+    color: rgba(248, 249, 250, var(--bs-text-opacity)) !important;
+    background: #33c3be;
+}
+
+.btn-green-31 {
+    --bs-text-opacity: 1;
+    color: rgba(248, 249, 250, var(--bs-text-opacity)) !important;
+    border: 1px solid #FFF;
+    background: #33c3be; 
+    border-radius: var(--bs-border-radius-lg) !important
+}
+
+.btn-green-31:hover {
+    color: rgba(51, 195, 190, var(--bs-text-opacity)) !important;
+    border: 1px solid #33c3be;
+    background: transparent;
+}
+
+.text-green-19 {
+    color: #194F52;
+}
+.text-green-31 {
+    color: #31B7B4;
+}
+
+.nav-link.active {
+    color: #31B7B4 !important;
+}
+
+.nav-link {
+    color: #6c757d;
+}
+
+.nav-link:hover {
+    color: #31B7B4;
+}
+
+.particles-canvas {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    color: #FFF;
+    content: var(--bs-breadcrumb-divider, "/")
+}
